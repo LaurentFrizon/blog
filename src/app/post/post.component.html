@@ -1,0 +1,7 @@
+<li [ngClass]="setClasses()">
+    <h2>{{ post.getTitle() }}</h2>
+    <p>{{ post.content }}</p>
+    <p>{{ post.created_at }}</p>
+    <button (click)="clickLoveIt()">Love it !</button>
+    <button (click)="clickDontLoveIt()">Don't love it !</button>
+</li>
